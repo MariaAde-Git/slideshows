@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="hero-box">
+      <div class="slider">
+        <div class="overlay">
+          <!-- my images -->
+          <img id="slider-image" src="/SlideShows/Assets/Image/tech1.jpg" alt="Slider Image" />
+          <div class="overlay-text">
+            <h1>Welcome to our Website</h1>
+            <p>This is my slideshow project</p>
+          </div>
+        </div>
+
+        <button class="slider-btn" onclick="prevSlide()">
+          &#10094; Previous
+        </button>
+        <button class="slider-btn" onclick="nextSlide()">Next &#10095;</button>
+      </div>
+    </div>
+
+    <script src="./slide.js"></script>
+  </body>
+</html>
