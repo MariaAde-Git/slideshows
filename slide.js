@@ -1,6 +1,5 @@
 // This line declares an array called images containing paths to different images. These images will be used in the slider.
 let images = [
-    "Assets/Image/web1.webp",
     "Assets/Image/web2.jpg",
     "Assets/Image/web3.jpg",
     "Assets/Image/web4.jpg",
