@@ -1,13 +1,13 @@
 // This line declares an array called images containing paths to different images. These images will be used in the slider.
 let images = [
-    "/SlideShows/Assets/Image/web1.webp",
-    "/SlideShows/Assets/Image/web2.jpg",
-    "/SlideShows/Assets/Image/web3.jpg",
-    "/SlideShows/Assets/Image/web4.jpg",
-    "/SlideShows/Assets/Image/web2.jpg",
-    "/SlideShows/Assets/Image/web5.jpg",
-    "/SlideShows/Assets/Image/home.jfif",
-    "/SlideShows/Assets/Image/tech1.jpg"
+    "Assets/Image/web1.webp",
+    "Assets/Image/web2.jpg",
+    "Assets/Image/web3.jpg",
+    "Assets/Image/web4.jpg",
+    "Assets/Image/web2.jpg",
+    "Assets/Image/web5.jpg",
+    "Assets/Image/home.jfif",
+    "Assets/Image/tech1.jpg"
 ];
 
 // This line declares a variable currentIndex and initializes it to 0. It keeps track of the currently displayed image in the slider. The currentIndex is the index in the images array.
